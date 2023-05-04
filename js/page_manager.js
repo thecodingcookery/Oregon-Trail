@@ -125,6 +125,7 @@ class PageManager {
   render() {
     const page = this.getCurrentPage();
     page.render();
+    describe(page.lastText);
   }
 
   getCurrentPage() {
